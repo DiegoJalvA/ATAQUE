@@ -20,18 +20,15 @@ El objetivo de este ejercicio es probar un ataque de fuerza bruta sobre un siste
 4. Tener Google Chrome instalado.
    Instrucciones de uso
 ### **Clona este repositorio en tu máquina local:**
-git clone https://github.com/DiegoJalvA/ATAQUE/blob/main/ataque.py
+     git clone https://github.com/DiegoJalvA/ATAQUE/blob/main/ataque.py
 ### **Navega a la carpeta del proyecto:**
-cd ataque_fuerza_bruta_python
-Abre el archivo index.html y personaliza el formulario de inicio de sesión según sea necesario.
-Ejecuta el script de Python:
-bash
-Copiar
-Editar
-python ataque_fuerza_bruta.py
+     `cd ataque_fuerza_bruta_python`
+### **Abre el archivo index.html y personaliza el formulario de inicio de sesión según sea necesario.**
+### **Ejecuta el script de Python:**
+`python ataque_fuerza_bruta.py`
 El script intentará diferentes contraseñas para encontrar la correcta. Asegúrate de que el formulario de inicio de sesión sea accesible y esté funcionando adecuadamente.
-Advertencia
+### **Advertencia**
 Este proyecto es solo para fines educativos. No utilices este script para realizar ataques no autorizados. El uso de ataques de fuerza bruta sin consentimiento es ilegal.
 
-Contribuciones
+### **Contribuciones**
 Si deseas contribuir, por favor haz un fork de este repositorio, realiza tus cambios y envía un pull request.
