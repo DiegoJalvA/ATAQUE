@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+</head>
+<body>
+    <h2>Iniciar Sesión</h2>
+    <form onsubmit="return verificarLogin()">
+        <label>Usuario:</label>
+        <input type="text" id="usuario" required><br><br>
+        
+        <label>Contraseña:</label>
+        <input type="password" id="password" required><br><br>
+
+        <button type="submit">Ingresar</button>
+    </form>
+
+    <script>
+        // ⚠️ Contraseña almacenada en el código (vulnerabilidad)
+        const usuarioGuardado = "admin";
+        const passwordGuardado = "clave123";
+
+        function verificarLogin() {
+            let usuario = document.getElementById("usuario").value;
+            let password = document.getElementById("password").value;
+
+            if (usuario === usuarioGuardado && password === passwordGuardado) {
+                alert("✅ Inicio de sesión exitoso");
+                return true;
+            } else {
+                alert("❌ Usuario o contraseña incorrectos");
+                return false;
+            }
+        }
+    </script>
+</body>
+</html>
