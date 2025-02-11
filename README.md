@@ -22,7 +22,7 @@ El objetivo de este ejercicio es probar un ataque de fuerza bruta sobre un siste
 ### **Clona este repositorio en tu máquina local:**
      git clone https://github.com/DiegoJalvA/ATAQUE/blob/main/ataque.py
 ### **Navega a la carpeta del proyecto:**
-     `cd ataque_fuerza_bruta_python`
+     cd ataque_fuerza_bruta_python
 ### **Abre el archivo index.html y personaliza el formulario de inicio de sesión según sea necesario.**
 ### **Ejecuta el script de Python:**
 `python ataque_fuerza_bruta.py`
